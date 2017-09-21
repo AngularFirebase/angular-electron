@@ -2,6 +2,7 @@
 
 # electron
 /angular-electron-win32-x64
+Release.key
 
 # compiled output
 /dist
