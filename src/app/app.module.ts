@@ -3,12 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { FormsModule } from '@angular/forms'; // <-- here
+import { RoundProgressModule } from 'angular-svg-round-progressbar'; // <-- here
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, 
+    FormsModule, // <-- here
+    RoundProgressModule // <-- and here
   ],
   providers: [],
   bootstrap: [AppComponent]

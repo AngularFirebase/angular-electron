@@ -1,28 +1,24 @@
 # AngularElectron
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.
+Build a native desktop timer app with Angular and Electron 
 
-## Development server
+![](https://firebasestorage.googleapis.com/v0/b/firestarter-96e46.appspot.com/o/assets%2Fangular-electron-timer.gif?alt=media&token=597f37b8-8983-414c-8b08-c038621f12d7)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Angular v4.2
+- Electron v1.7
+- Angular CLI v1.4 
 
-## Code scaffolding
+## Basic Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell
+git clone
+cd angular-electron
+npm install
 
-## Build
+# build the app
+npm run electron-build
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Lessons and Screencasts
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Learn how to bulid this project step-by-step at https://angularfirebase.com

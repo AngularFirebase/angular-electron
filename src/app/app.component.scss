@@ -1,0 +1,43 @@
+.content { 
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+}
+.progress-wrapper {
+  position: relative;
+  margin: 20px auto;
+  font-size: 20px;
+
+  .text {
+    position: absolute;
+    color: #9B9B9B;
+    font-weight: 100;
+    line-height: 1;
+
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 26px;
+  }
+
+}
+
+round-progress { 
+  margin: auto;
+}
+
+.controls-wrapper {
+  text-align: center;
+  margin: auto;
+}
+
+.input { 
+  text-align: center;
+  margin: auto;
+  max-width: 250px;
+  display: block;
+  margin-bottom: 10px;
+}
