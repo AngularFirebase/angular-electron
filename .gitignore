@@ -3,6 +3,7 @@
 # electron
 /angular-electron-win32-x64
 Release.key
+*.zip
 
 # compiled output
 /dist
