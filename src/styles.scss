@@ -2,8 +2,9 @@
 @import 'node_modules/bulma/bulma';
 
 body {
-    width: 100%;
+    width: fit-content;
     height: 100%;
+    padding: 0px;
     margin: 0 auto;
     background: #e6f7ff;
 }
