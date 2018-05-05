@@ -6,8 +6,12 @@ function createWindow () {
   // Create the browser window.
   win = new BrowserWindow({
     width: 600, 
+<<<<<<< HEAD
     height: 600,
     backgroundColor: `file://${__dirname}/dist/assets/bg.png`,
+=======
+    height: 670,
+>>>>>>> yann-branch
     icon: `file://${__dirname}/dist/assets/logo.png`
   })
 
