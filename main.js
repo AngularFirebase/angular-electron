@@ -6,20 +6,11 @@ function createWindow () {
   // Create the browser window.
   win = new BrowserWindow({
     width: 600, 
-<<<<<<< HEAD
-    height: 600,
-    backgroundColor: `file://${__dirname}/dist/assets/bg.png`,
-=======
     height: 670,
->>>>>>> yann-branch
     icon: `file://${__dirname}/dist/assets/logo.png`
   })
 
-
   win.loadURL(`file://${__dirname}/dist/index.html`)
-
-
-
 
   //// uncomment below to open the DevTools.
   // win.webContents.openDevTools()
