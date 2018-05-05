@@ -1,30 +1,36 @@
 .content { 
   width: 500px;
-  height: 500px;
+  height: auto;
   padding: 50px;
   margin: 40px auto;
   text-align: center;
   border-radius: 10px;
   background: url(/assets/bg.jpg);
 }
+
+label {
+  color: wheat;
+}
+
+h1 {
+  color: #595959;
+}
 .progress-wrapper {
-  position: relative;
-  margin: 20px auto;
   font-size: 20px;
+  margin: 20px auto;
+  position: relative;
 
   .text {
-    position: absolute;
-    color: #9B9B9B;
-    font-weight: 100;
-    line-height: 1;
-
     top: 50%;
-    bottom: auto;
     left: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    bottom: auto;
+    line-height: 1;
     font-size: 26px;
+    color: #00cc00;
+    font-weight: bold;
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%);
   }
-
 }
 
 round-progress { 
@@ -32,14 +38,14 @@ round-progress {
 }
 
 .controls-wrapper {
-  text-align: center;
   margin: auto;
+  text-align: center;
 }
 
 .input { 
-  text-align: center;
   margin: auto;
-  max-width: 250px;
   display: block;
+  max-width: 250px;
+  text-align: center;
   margin-bottom: 10px;
 }

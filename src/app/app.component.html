@@ -22,13 +22,14 @@
                 [stroke]="25">
             </round-progress>
     
-        </div>
+        </div><br><br>
     
         <div class="controls-wrapper">
             <div>
-                <label>Seconds</label>
                 <input class="input" placeholder="number of seconds" type="text" [(ngModel)]="max" (keydown)="reset()">
-            </div>
+                <label>Seconds</label>
+                <br>
+            </div><br>
     
             <button class="button is-info" *ngIf="currentVal <= 0" (click)="start()">Start</button>
             <button class="button is-danger" *ngIf="!isFinished" (click)="finish()">Finish</button>
