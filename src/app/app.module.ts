@@ -1,19 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-
-import { FormsModule } from '@angular/forms'; // <-- here
+import { BrowserModule } from '@angular/platform-browser';
 import { RoundProgressModule } from 'angular-svg-round-progressbar'; // <-- here
 
 @NgModule({
   declarations: [
     AppComponent
   ],
-  imports: [
-    BrowserModule, 
-    FormsModule, // <-- here
-    RoundProgressModule // <-- and here
+  imports: [ 
+    FormsModule, 
+    BrowserModule,
+    RoundProgressModule
   ],
   providers: [],
   bootstrap: [AppComponent]
