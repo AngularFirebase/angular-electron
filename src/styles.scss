@@ -2,11 +2,11 @@
 @import 'node_modules/bulma/bulma';
 
 body {
-    width: fit-content;
     height: auto;
     padding: 0px;
     margin: 0 auto;
-    background: #e6f7ff;
+    width: fit-content;
+    background: linear-gradient(#66c2ff, black);
 }
 
 // body {
